@@ -80,4 +80,8 @@
   <!-- Button backlight -->
    <java-symbol type="dimen" name="config_buttonBrightnessSettingDefaultFloat" />
    <java-symbol type="bool" name="config_deviceHasVariableButtonBrightness" />
-</resources>
+
+  <!-- Post reset runnable for all clients -->
+  <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
+
+</resources> 
