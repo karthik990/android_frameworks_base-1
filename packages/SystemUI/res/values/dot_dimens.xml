@@ -45,4 +45,7 @@
     <dimen name="dismiss_all_fab_src_size">24dp</dimen>
 
     <dimen name="dot_quick_container_spacing">-16dp</dimen>
+
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">@dimen/keyguard_indication_margin_bottom</dimen>
 </resources>
