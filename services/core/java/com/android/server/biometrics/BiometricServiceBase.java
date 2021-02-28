@@ -664,9 +664,6 @@ public abstract class BiometricServiceBase extends SystemService
         mMetricsLogger = new MetricsLogger();
         mCleanupUnusedFingerprints = mContext.getResources().getBoolean(
                 com.android.internal.R.bool.config_cleanupUnusedFingerprints);
-        mPostResetRunnableForAllClients = mContext.getResources().getBoolean(
-                com.android.internal.R.bool
-                        .config_fingerprintPostResetRunnableForAllClients);
     }
 
     @Override
